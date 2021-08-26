@@ -1,0 +1,28 @@
+.EmpCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 10px;
+}
+.EmpCardContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.ListGroup{
+    display: flex;
+    flex-direction: column;
+}
+.AddEmployeeForm{
+    display: flex;
+    flex-direction: column;
+    
+}
+.DropdownButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
