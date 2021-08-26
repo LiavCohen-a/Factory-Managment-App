@@ -1,0 +1,24 @@
+.ShiftCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 10px;
+}
+.ShiftsCardContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.Page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.ShiftForm{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}

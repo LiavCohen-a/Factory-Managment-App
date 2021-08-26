@@ -1,0 +1,18 @@
+.DepCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 10px;
+}
+.DepCardContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.AddDepartmentForm{
+    display: flex;
+    flex-direction: column;
+    width: 130%;
+    justify-content: center;
+}

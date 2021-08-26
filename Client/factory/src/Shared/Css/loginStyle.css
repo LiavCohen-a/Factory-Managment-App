@@ -1,0 +1,13 @@
+.LoginPage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 553px;
+}
+.LoginForm{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 150%;
+}
