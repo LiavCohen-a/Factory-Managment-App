@@ -60,7 +60,6 @@ exports.AddUser = function(newUserData)
             fullName : newUserData.fullName,
             userName : newUserData.userName,
             password : newUserData.password,
-            permissions : newUserData.permissions,
             isAdmin : newUserData.isAdmin
         })
         newUser.save(function(err){
