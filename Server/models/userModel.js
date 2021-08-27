@@ -7,7 +7,6 @@ let user = new userSchema({
   userName: String,
   fullName : String,
   password : String,
-  permissions : Array,
   isAdmin : Boolean
 });
 

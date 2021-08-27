@@ -12,6 +12,9 @@ import SearchEmployeesPage from '../Pages/EmployeePage/searchEmployeesPage';
 import LoginPage from '../Pages/LoginPage/loginPage';
 import AddShiftPage from '../Pages/ShiftPage/Components/addShiftPage';
 import ShiftsPage from '../Pages/ShiftPage/shiftsPage';
+import AddUserPage from '../Pages/UserPage(AdminOnly)/Componnent/addUserPage';
+import EditUserPage from '../Pages/UserPage(AdminOnly)/Componnent/editUserPage';
+import UsersPage from '../Pages/UserPage(AdminOnly)/UsersPage';
 
 function SwitchComp() {
     return (
@@ -27,6 +30,11 @@ function SwitchComp() {
             <Route exact path="/Departments" component={DepartmentPage}/>
             <Route exact path="/Departments/EditDep/:id" component={EditDepartmentComp}/>
             <Route exact path="/Departments/AddDepartment" component={AddDepartmentPage}/>
+
+            <Route exact path="/Users" component={UsersPage}/>
+            <Route exact path="/Users/EditUser/:id" component={EditUserPage}/>
+            <Route exact path="/Users/AddUser" component={AddUserPage}/>
+
         </Switch>
       </div>
     );
